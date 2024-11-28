@@ -1,11 +1,11 @@
 import os
-from file_sorter import organize_files
-from logger import setup_logger, clear_log
-from interface import *
+from file_organizer.file_sorter import organize_files
+from file_organizer.logger import setup_logger, clear_log
+from file_organizer.interface import *
 
 
 
-from config import register_file_type, FILE_TYPE_MAP, add_new_file_type
+from file_organizer.config import register_file_type, FILE_TYPE_MAP, add_new_file_type
 
 
 
